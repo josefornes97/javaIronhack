@@ -1,0 +1,14 @@
+class Main {
+  public static void main(String[] args) {
+    String name = oddEven(6);
+    System.out.println(name);
+  }
+  public static String oddEven(int number){
+    if ((number % 2) == 0) {
+    return "Even number";
+    }
+    else {
+      return "Odd number";
+    }
+  }
+}
