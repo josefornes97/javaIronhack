@@ -1,0 +1,31 @@
+class Main {
+  public static void main(String[] args) {
+    String number = printNumberInWord(5);
+    System.out.println(number);
+  }
+  public static String printNumberInWord(int num) {
+    if ((num < 10) && (num > 0)) {
+      if (num == 1)
+      return "ONE";
+      if (num == 2)
+      return "TWO";
+      if (num == 3)
+      return "THREE";
+      if (num == 4)
+      return "FOUR";
+      if (num == 5)
+      return "FIVE";
+      if (num == 6)
+      return "SIX";
+      if (num == 7)
+      return "SEVEN";
+      if (num == 8)
+      return "EIGHT";
+      else
+      return "NINE";
+    }
+    else {
+      return "OTHER";
+    }
+  }
+}
